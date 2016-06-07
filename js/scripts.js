@@ -7,6 +7,7 @@ $(document).ready(function() {
       var match;
       if (gender === 'male' && age <= 40) {
         match ="Paul Rudd";
+        $("#photo").append("<img src='img/rudd.jpg'>");
       }
       if (gender === 'male' && age > 40) {
         match ="Harrison Ford";
