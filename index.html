@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Car insurance</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Match!</h1>
+
+      <p>To find out which celebrity is right for you, let us know what you're really into and we're going to make your dreams come true!</p>
+
+      <form id="datingPreferences">
+        <label for="age">Preferred Age</label>
+        <input id="age" type="text">
+        <label for="gender">Preferred Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Show me my celebrity match!</button>
+      </form>
+
+      <div id="match">
+        <p>Your match is <span id="yourCeleb"></span>! We hope you live happily ever after!</p>
+      </div>
+    </div>
+  </body>
+</html>
