@@ -23,7 +23,7 @@ $(document).ready(function() {
       alert('Please enter your age.');
     }
     $("#yourCeleb").empty().append(match);
-    alert(match);
+
     $("#match").show();
     event.preventDefault();
   });
