@@ -11,12 +11,15 @@ $(document).ready(function() {
       }
       if (gender === 'male' && age > 40) {
         match ="Harrison Ford";
+        $("#photo").append("<img src='img/ford.jpg'>");
       }
       if (gender === 'female' && age <= 40) {
         match ="Katy Perry";
+        $("#photo").append("<img src='img/perry.jpg'>");
       }
       if (gender === 'female' && age > 40) {
         match ="Heather Locklear";
+        $("#photo").append("<img src='img/locklear.jpg'>");
       }
 
 
